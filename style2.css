@@ -1,0 +1,99 @@
+.first{
+    width: 100%;
+    text-align: right;
+    position: relative;
+    color: #8aa7a8;
+}
+.right {
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-30%, -70%);
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.return {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    transform: translate(-30%, -70%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    text-align: right;
+    padding: 50px;
+    color: #003031;
+    font-size: 23px;
+  }
+  .header h6{
+      color: #8aa7a8;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .hand {
+    text-align: center;
+    padding: 50px;
+    color: #003031;
+    font-size: 23px;
+  }
+
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: #003031;
+    text-align: center;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+footer p{
+    padding-top: 23px;
+}
